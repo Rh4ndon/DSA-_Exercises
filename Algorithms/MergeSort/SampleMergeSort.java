@@ -28,10 +28,11 @@ public class SampleMergeSort {
     return C;
     }
     public static void main(String args[]){
-        int[] A = { 1, 5, 6 };
-        int[] B = { 5, 8, 10} ;
-        System.out.println(merge(A, B));
+        int[] A = { 1, 2, 3 };
+        int[] B = { 4, 5, 6} ;
         
+        int[] result = merge(A, B);
+        System.out.println(result); 
     }
     
 }

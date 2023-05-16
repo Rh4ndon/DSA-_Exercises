@@ -36,8 +36,9 @@ public class NonRepeatingCharacter {
     System.out.println("Characters:"); 
     String s = scanner.nextLine(); 
     
-        findFirstNoneRepeatingCharacter(s);
+        Character result = findFirstNoneRepeatingCharacter(s);
         
+        System.out.println(result); 
         
     }
 }
